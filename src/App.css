@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.sidebar {
+  background-color: rgb(47, 53, 58);
+  height: 100vh;
+  padding-top: 23px;
+}
+/* .sidebar::before {
+} */
+.App-link {
+  color: #09d3ac;
+}
+.dialogBox {
+  padding: 25px;
+}
+.longText {
+  width: 50%;
+}
+.backButton {
+  display: flex;
+  padding-left: 46px;
+  margin-bottom: 3px;
+}
+.simpleForm {
+  display: flex;
+  justify-content: center;
+}
+.addGroup {
+  padding-bottom: 16px;
+}
+
+.listChild {
+  width: 250px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 78px;
+}
+.enrollChild {
+  display: flex;
+  flex-direction: column;
+  min-height: 450px;
+  justify-content: space-evenly;
+  width: 350px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+.childShow_heading {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 32px;
+}
+.back {
+  position: absolute;
+  left: 11px;
+  top: 10px;
+}
+
+.checkEmail {
+  display: flex;
+  justify-content: center;
+}
+.paymentSelect {
+  padding: 5px;
+  border: 1px solid rgb(87, 87, 255);
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 8px;
+}
+.addAnime {
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.paymentSelectBox {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 99px;
+  justify-content: space-between;
+}
+@media (min-width: 960px) {
+  .jss10 {
+    border: none;
+    margin-top: 0 !important;
+  }
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+th {
+  padding: 12px 8px !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+.customLayout {
+  width: 360px;
+  margin: auto;
+}
+.customLayout div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.customLayout label {
+  color: black;
+  font-weight: bold;
+  font-size: 1.12rem;
+  width: 35px;
+  white-space: pre;
+}
